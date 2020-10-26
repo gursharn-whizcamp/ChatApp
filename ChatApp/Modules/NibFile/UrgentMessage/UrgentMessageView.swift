@@ -1,5 +1,5 @@
 //
-//  UrgentMessageCell.swift
+//  UrgentMessageView.swift
 //  ChatApp
 //
 //  Created by apple on 23/10/20.
@@ -8,10 +8,9 @@
 
 import UIKit
 
-class UrgentMessageCell: UITableViewCell {
-    @IBOutlet weak var imgvw: UIImageView!
-     @IBOutlet weak var name_lbl: UILabel!
-     @IBOutlet weak var message_lbl: UILabel!
+class UrgentMessageView: UIView {
+    @IBOutlet weak var tblvw: UITableView!
+    @IBOutlet weak var cross_btn: UIButton!
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

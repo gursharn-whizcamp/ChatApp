@@ -15,6 +15,42 @@
 		1860E56B2542D2DD00B37E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5692542D2DD00B37E03 /* LaunchScreen.storyboard */; };
 		1860E5762542D2DD00B37E03 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5752542D2DD00B37E03 /* ChatAppTests.swift */; };
 		1860E5812542D2DD00B37E03 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5802542D2DD00B37E03 /* ChatAppUITests.swift */; };
+		1860E5902542D40D00B37E03 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E58F2542D40D00B37E03 /* ChatCell.swift */; };
+		1860E5922542D42800B37E03 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5912542D42800B37E03 /* ChatCell.xib */; };
+		1860E5992542D79500B37E03 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5942542D79400B37E03 /* Poppins-Light.ttf */; };
+		1860E59A2542D79500B37E03 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5952542D79400B37E03 /* Poppins-Medium.ttf */; };
+		1860E59B2542D79500B37E03 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5962542D79400B37E03 /* Poppins-Regular.ttf */; };
+		1860E59D2542D79500B37E03 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5982542D79400B37E03 /* Poppins-SemiBold.ttf */; };
+		1860E5A02542E4D000B37E03 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E59F2542E4D000B37E03 /* ChatViewController.swift */; };
+		1860E5B32542E65900B37E03 /* CustomImagePageImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A22542E65900B37E03 /* CustomImagePageImage.swift */; };
+		1860E5B42542E65900B37E03 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A32542E65900B37E03 /* Constant.swift */; };
+		1860E5B52542E65900B37E03 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A42542E65900B37E03 /* DividerView.swift */; };
+		1860E5B62542E65900B37E03 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A52542E65900B37E03 /* CustomView.swift */; };
+		1860E5B72542E65900B37E03 /* CustomChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A62542E65900B37E03 /* CustomChartView.swift */; };
+		1860E5B82542E65900B37E03 /* CustomImagePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A72542E65900B37E03 /* CustomImagePageControl.swift */; };
+		1860E5B92542E65900B37E03 /* UiNibsFilesCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5A92542E65900B37E03 /* UiNibsFilesCreation.swift */; };
+		1860E5BA2542E65900B37E03 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5AA2542E65900B37E03 /* ImagePicker.swift */; };
+		1860E5BB2542E65900B37E03 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5AB2542E65900B37E03 /* Reachability.swift */; };
+		1860E5BC2542E65900B37E03 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5AC2542E65900B37E03 /* WebService.swift */; };
+		1860E5BD2542E65900B37E03 /* FontLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5AD2542E65900B37E03 /* FontLabels.swift */; };
+		1860E5BF2542E65900B37E03 /* CancellableDelayTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5AF2542E65900B37E03 /* CancellableDelayTask.swift */; };
+		1860E5C12542E65900B37E03 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5B12542E65900B37E03 /* Toast.swift */; };
+		1860E5C22542E65900B37E03 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5B22542E65900B37E03 /* PhotoManager.swift */; };
+		1860E5C52542FEAA00B37E03 /* UrgentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5C42542FEAA00B37E03 /* UrgentMessageView.swift */; };
+		1860E5C72542FEBE00B37E03 /* UrgentMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5C62542FEBE00B37E03 /* UrgentMessageView.xib */; };
+		1860E5C92543034A00B37E03 /* UrgentMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1860E5C82543034A00B37E03 /* UrgentMessageCell.xib */; };
+		1860E5CB2543040300B37E03 /* UrgentMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5CA2543040300B37E03 /* UrgentMessageCell.swift */; };
+		18A8F73B2546A13300C25FFE /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F73A2546A13300C25FFE /* MessageVC.swift */; };
+		18A8F7412546A52D00C25FFE /* UrgentSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7402546A52D00C25FFE /* UrgentSingleView.swift */; };
+		18A8F7432546A54600C25FFE /* UrgentSingleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A8F7422546A54600C25FFE /* UrgentSingleView.xib */; };
+		18A8F7452546AF3C00C25FFE /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A8F7442546AF3C00C25FFE /* LeftCell.xib */; };
+		18A8F7472546AF5500C25FFE /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7462546AF5500C25FFE /* LeftCell.swift */; };
+		18A8F7492546AF6800C25FFE /* RightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7482546AF6800C25FFE /* RightCell.swift */; };
+		18A8F74B2546AF7300C25FFE /* RightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A8F74A2546AF7300C25FFE /* RightCell.xib */; };
+		18A8F74F2546B80300C25FFE /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F74D2546B80300C25FFE /* Chat.swift */; };
+		18A8F7502546B80300C25FFE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F74E2546B80300C25FFE /* Message.swift */; };
+		18A8F7542546B80B00C25FFE /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7522546B80B00C25FFE /* MessageStore.swift */; };
+		18A8F7552546B80B00C25FFE /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F7532546B80B00C25FFE /* ChatStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +85,42 @@
 		1860E57C2542D2DD00B37E03 /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860E5802542D2DD00B37E03 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		1860E5822542D2DD00B37E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860E58F2542D40D00B37E03 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		1860E5912542D42800B37E03 /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		1860E5942542D79400B37E03 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		1860E5952542D79400B37E03 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1860E5962542D79400B37E03 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1860E5982542D79400B37E03 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1860E59F2542E4D000B37E03 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1860E5A22542E65900B37E03 /* CustomImagePageImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImagePageImage.swift; sourceTree = "<group>"; };
+		1860E5A32542E65900B37E03 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1860E5A42542E65900B37E03 /* DividerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		1860E5A52542E65900B37E03 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		1860E5A62542E65900B37E03 /* CustomChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomChartView.swift; sourceTree = "<group>"; };
+		1860E5A72542E65900B37E03 /* CustomImagePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImagePageControl.swift; sourceTree = "<group>"; };
+		1860E5A92542E65900B37E03 /* UiNibsFilesCreation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiNibsFilesCreation.swift; sourceTree = "<group>"; };
+		1860E5AA2542E65900B37E03 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1860E5AB2542E65900B37E03 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1860E5AC2542E65900B37E03 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		1860E5AD2542E65900B37E03 /* FontLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLabels.swift; sourceTree = "<group>"; };
+		1860E5AF2542E65900B37E03 /* CancellableDelayTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellableDelayTask.swift; sourceTree = "<group>"; };
+		1860E5B12542E65900B37E03 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1860E5B22542E65900B37E03 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		1860E5C42542FEAA00B37E03 /* UrgentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrgentMessageView.swift; sourceTree = "<group>"; };
+		1860E5C62542FEBE00B37E03 /* UrgentMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UrgentMessageView.xib; sourceTree = "<group>"; };
+		1860E5C82543034A00B37E03 /* UrgentMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UrgentMessageCell.xib; sourceTree = "<group>"; };
+		1860E5CA2543040300B37E03 /* UrgentMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrgentMessageCell.swift; sourceTree = "<group>"; };
+		18A8F73A2546A13300C25FFE /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		18A8F7402546A52D00C25FFE /* UrgentSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrgentSingleView.swift; sourceTree = "<group>"; };
+		18A8F7422546A54600C25FFE /* UrgentSingleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UrgentSingleView.xib; sourceTree = "<group>"; };
+		18A8F7442546AF3C00C25FFE /* LeftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
+		18A8F7462546AF5500C25FFE /* LeftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		18A8F7482546AF6800C25FFE /* RightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightCell.swift; sourceTree = "<group>"; };
+		18A8F74A2546AF7300C25FFE /* RightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightCell.xib; sourceTree = "<group>"; };
+		18A8F74D2546B80300C25FFE /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		18A8F74E2546B80300C25FFE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		18A8F7522546B80B00C25FFE /* MessageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
+		18A8F7532546B80B00C25FFE /* ChatStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +171,12 @@
 		1860E55D2542D2D900B37E03 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				18A8F7512546B80B00C25FFE /* Stores */,
+				18A8F74C2546B80300C25FFE /* Model */,
+				1860E5A12542E65900B37E03 /* Classes */,
+				1860E59E2542E4A800B37E03 /* Modules */,
+				1860E5932542D79400B37E03 /* Fonts */,
+				1860E58E2542D3F000B37E03 /* Cells */,
 				1860E55E2542D2D900B37E03 /* AppDelegate.swift */,
 				1860E5602542D2D900B37E03 /* SceneDelegate.swift */,
 				1860E5622542D2D900B37E03 /* ViewController.swift */,
@@ -126,6 +204,116 @@
 				1860E5822542D2DD00B37E03 /* Info.plist */,
 			);
 			path = ChatAppUITests;
+			sourceTree = "<group>";
+		};
+		1860E58E2542D3F000B37E03 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1860E58F2542D40D00B37E03 /* ChatCell.swift */,
+				1860E5912542D42800B37E03 /* ChatCell.xib */,
+				1860E5C82543034A00B37E03 /* UrgentMessageCell.xib */,
+				1860E5CA2543040300B37E03 /* UrgentMessageCell.swift */,
+				18A8F7442546AF3C00C25FFE /* LeftCell.xib */,
+				18A8F7462546AF5500C25FFE /* LeftCell.swift */,
+				18A8F7482546AF6800C25FFE /* RightCell.swift */,
+				18A8F74A2546AF7300C25FFE /* RightCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1860E5932542D79400B37E03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1860E5942542D79400B37E03 /* Poppins-Light.ttf */,
+				1860E5952542D79400B37E03 /* Poppins-Medium.ttf */,
+				1860E5962542D79400B37E03 /* Poppins-Regular.ttf */,
+				1860E5982542D79400B37E03 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1860E59E2542E4A800B37E03 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1860E5C32542FE7300B37E03 /* NibFile */,
+				1860E59F2542E4D000B37E03 /* ChatViewController.swift */,
+				18A8F73A2546A13300C25FFE /* MessageVC.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1860E5A12542E65900B37E03 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1860E5A82542E65900B37E03 /* Others */,
+				1860E5A22542E65900B37E03 /* CustomImagePageImage.swift */,
+				1860E5A32542E65900B37E03 /* Constant.swift */,
+				1860E5A42542E65900B37E03 /* DividerView.swift */,
+				1860E5A52542E65900B37E03 /* CustomView.swift */,
+				1860E5A62542E65900B37E03 /* CustomChartView.swift */,
+				1860E5A72542E65900B37E03 /* CustomImagePageControl.swift */,
+				1860E5AA2542E65900B37E03 /* ImagePicker.swift */,
+				1860E5AB2542E65900B37E03 /* Reachability.swift */,
+				1860E5AC2542E65900B37E03 /* WebService.swift */,
+				1860E5AD2542E65900B37E03 /* FontLabels.swift */,
+				1860E5AF2542E65900B37E03 /* CancellableDelayTask.swift */,
+				1860E5B12542E65900B37E03 /* Toast.swift */,
+				1860E5B22542E65900B37E03 /* PhotoManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1860E5A82542E65900B37E03 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1860E5A92542E65900B37E03 /* UiNibsFilesCreation.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1860E5C32542FE7300B37E03 /* NibFile */ = {
+			isa = PBXGroup;
+			children = (
+				18A8F73D2546A4BB00C25FFE /* SingleUrgentMEssage */,
+				18A8F73C2546A4A700C25FFE /* UrgentMessage */,
+			);
+			path = NibFile;
+			sourceTree = "<group>";
+		};
+		18A8F73C2546A4A700C25FFE /* UrgentMessage */ = {
+			isa = PBXGroup;
+			children = (
+				1860E5C42542FEAA00B37E03 /* UrgentMessageView.swift */,
+				1860E5C62542FEBE00B37E03 /* UrgentMessageView.xib */,
+			);
+			path = UrgentMessage;
+			sourceTree = "<group>";
+		};
+		18A8F73D2546A4BB00C25FFE /* SingleUrgentMEssage */ = {
+			isa = PBXGroup;
+			children = (
+				18A8F7402546A52D00C25FFE /* UrgentSingleView.swift */,
+				18A8F7422546A54600C25FFE /* UrgentSingleView.xib */,
+			);
+			path = SingleUrgentMEssage;
+			sourceTree = "<group>";
+		};
+		18A8F74C2546B80300C25FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A8F74D2546B80300C25FFE /* Chat.swift */,
+				18A8F74E2546B80300C25FFE /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18A8F7512546B80B00C25FFE /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				18A8F7522546B80B00C25FFE /* MessageStore.swift */,
+				18A8F7532546B80B00C25FFE /* ChatStore.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +421,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1860E56B2542D2DD00B37E03 /* LaunchScreen.storyboard in Resources */,
+				18A8F74B2546AF7300C25FFE /* RightCell.xib in Resources */,
+				1860E5992542D79500B37E03 /* Poppins-Light.ttf in Resources */,
+				1860E59B2542D79500B37E03 /* Poppins-Regular.ttf in Resources */,
+				1860E5922542D42800B37E03 /* ChatCell.xib in Resources */,
+				18A8F7452546AF3C00C25FFE /* LeftCell.xib in Resources */,
+				1860E5C72542FEBE00B37E03 /* UrgentMessageView.xib in Resources */,
+				1860E59A2542D79500B37E03 /* Poppins-Medium.ttf in Resources */,
+				1860E5C92543034A00B37E03 /* UrgentMessageCell.xib in Resources */,
+				1860E59D2542D79500B37E03 /* Poppins-SemiBold.ttf in Resources */,
 				1860E5682542D2DD00B37E03 /* Assets.xcassets in Resources */,
+				18A8F7432546A54600C25FFE /* UrgentSingleView.xib in Resources */,
 				1860E5662542D2D900B37E03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +457,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A8F7492546AF6800C25FFE /* RightCell.swift in Sources */,
+				1860E5BB2542E65900B37E03 /* Reachability.swift in Sources */,
+				18A8F7412546A52D00C25FFE /* UrgentSingleView.swift in Sources */,
+				18A8F7542546B80B00C25FFE /* MessageStore.swift in Sources */,
+				1860E5BA2542E65900B37E03 /* ImagePicker.swift in Sources */,
+				1860E5B72542E65900B37E03 /* CustomChartView.swift in Sources */,
+				1860E5BC2542E65900B37E03 /* WebService.swift in Sources */,
+				1860E5B42542E65900B37E03 /* Constant.swift in Sources */,
+				1860E5BD2542E65900B37E03 /* FontLabels.swift in Sources */,
+				1860E5BF2542E65900B37E03 /* CancellableDelayTask.swift in Sources */,
+				1860E5C22542E65900B37E03 /* PhotoManager.swift in Sources */,
 				1860E5632542D2D900B37E03 /* ViewController.swift in Sources */,
+				1860E5B32542E65900B37E03 /* CustomImagePageImage.swift in Sources */,
+				1860E5B62542E65900B37E03 /* CustomView.swift in Sources */,
+				18A8F7552546B80B00C25FFE /* ChatStore.swift in Sources */,
+				18A8F74F2546B80300C25FFE /* Chat.swift in Sources */,
+				18A8F7472546AF5500C25FFE /* LeftCell.swift in Sources */,
+				1860E5902542D40D00B37E03 /* ChatCell.swift in Sources */,
+				1860E5B92542E65900B37E03 /* UiNibsFilesCreation.swift in Sources */,
 				1860E55F2542D2D900B37E03 /* AppDelegate.swift in Sources */,
+				1860E5B82542E65900B37E03 /* CustomImagePageControl.swift in Sources */,
+				1860E5CB2543040300B37E03 /* UrgentMessageCell.swift in Sources */,
+				1860E5A02542E4D000B37E03 /* ChatViewController.swift in Sources */,
+				18A8F7502546B80300C25FFE /* Message.swift in Sources */,
+				1860E5C12542E65900B37E03 /* Toast.swift in Sources */,
+				1860E5B52542E65900B37E03 /* DividerView.swift in Sources */,
 				1860E5612542D2D900B37E03 /* SceneDelegate.swift in Sources */,
+				18A8F73B2546A13300C25FFE /* MessageVC.swift in Sources */,
+				1860E5C52542FEAA00B37E03 /* UrgentMessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

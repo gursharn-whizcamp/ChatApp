@@ -1,14 +1,14 @@
 //
-//  UrgentMessageView.swift
+//  UrgentSingleView.swift
 //  ChatApp
 //
-//  Created by apple on 23/10/20.
+//  Created by apple on 26/10/20.
 //  Copyright © 2020 apple. All rights reserved.
 //
 
 import UIKit
 
-class UrgentMessageView: UIView {
+class UrgentSingleView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
