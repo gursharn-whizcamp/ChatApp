@@ -52,10 +52,16 @@ class MessageVC: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func send(_ sender: Any)
     {
       //  Message[messages.count]
-        messages[messages.count - 1].text = message_txtvw.text!
-        messages[messages.count - 1].side = .right
-        let ms = messages[messages.count - 1]
+        print(messages.count)
+        let indexPath = IndexPath(row: self.messages.count-1, section: 0)
+        messages[indexPath.row].text = message_txtvw.text!
+        messages[indexPath.row].side = .right
+        print(messages[messages.count - 1])
+        print([messages.count - 1])
+        let ms = messages[indexPath.row]
         messages.append(ms)
+        //print(ms)
+       // print(messages)
         tblvw.reloadData()
         scrollToBottom()
     }

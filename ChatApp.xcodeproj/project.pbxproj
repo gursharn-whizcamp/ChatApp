@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1814D15F25669892002E1EE6 /* MessageActionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1814D15E25669892002E1EE6 /* MessageActionsView.xib */; };
+		1814D162256698B6002E1EE6 /* MessageActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814D161256698B6002E1EE6 /* MessageActionsView.swift */; };
 		1860E55F2542D2D900B37E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E55E2542D2D900B37E03 /* AppDelegate.swift */; };
 		1860E5612542D2D900B37E03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5602542D2D900B37E03 /* SceneDelegate.swift */; };
 		1860E5632542D2D900B37E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860E5622542D2D900B37E03 /* ViewController.swift */; };
@@ -71,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1814D15E25669892002E1EE6 /* MessageActionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageActionsView.xib; sourceTree = "<group>"; };
+		1814D161256698B6002E1EE6 /* MessageActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionsView.swift; sourceTree = "<group>"; };
 		1860E55B2542D2D900B37E03 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860E55E2542D2D900B37E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1860E5602542D2D900B37E03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1814D1602566989A002E1EE6 /* MessageActions */ = {
+			isa = PBXGroup;
+			children = (
+				1814D15E25669892002E1EE6 /* MessageActionsView.xib */,
+				1814D161256698B6002E1EE6 /* MessageActionsView.swift */,
+			);
+			path = MessageActions;
+			sourceTree = "<group>";
+		};
 		1860E5522542D2D900B37E03 = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +287,7 @@
 		1860E5C32542FE7300B37E03 /* NibFile */ = {
 			isa = PBXGroup;
 			children = (
+				1814D1602566989A002E1EE6 /* MessageActions */,
 				18A8F73D2546A4BB00C25FFE /* SingleUrgentMEssage */,
 				18A8F73C2546A4A700C25FFE /* UrgentMessage */,
 			);
@@ -428,6 +442,7 @@
 				18A8F7452546AF3C00C25FFE /* LeftCell.xib in Resources */,
 				1860E5C72542FEBE00B37E03 /* UrgentMessageView.xib in Resources */,
 				1860E59A2542D79500B37E03 /* Poppins-Medium.ttf in Resources */,
+				1814D15F25669892002E1EE6 /* MessageActionsView.xib in Resources */,
 				1860E5C92543034A00B37E03 /* UrgentMessageCell.xib in Resources */,
 				1860E59D2542D79500B37E03 /* Poppins-SemiBold.ttf in Resources */,
 				1860E5682542D2DD00B37E03 /* Assets.xcassets in Resources */,
@@ -473,6 +488,7 @@
 				1860E5B62542E65900B37E03 /* CustomView.swift in Sources */,
 				18A8F7552546B80B00C25FFE /* ChatStore.swift in Sources */,
 				18A8F74F2546B80300C25FFE /* Chat.swift in Sources */,
+				1814D162256698B6002E1EE6 /* MessageActionsView.swift in Sources */,
 				18A8F7472546AF5500C25FFE /* LeftCell.swift in Sources */,
 				1860E5902542D40D00B37E03 /* ChatCell.swift in Sources */,
 				1860E5B92542E65900B37E03 /* UiNibsFilesCreation.swift in Sources */,

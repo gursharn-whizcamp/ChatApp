@@ -59,7 +59,7 @@
                                         <state key="normal" image="FilterGrey"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ti2-4w-QQ4">
-                                        <rect key="frame" x="183.5" y="14.5" width="47.5" height="21"/>
+                                        <rect key="frame" x="180" y="10" width="54.5" height="30"/>
                                         <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
